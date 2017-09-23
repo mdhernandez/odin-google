@@ -1,0 +1,97 @@
+p{
+	font-family: Arial, sans-serif;
+}
+
+img {
+	padding: 10px;
+	display: block;
+	
+}
+
+img.center{
+	margin: auto;
+	clear: both;
+	padding-top: 10%;
+}
+
+form{
+	text-align: center;
+	
+}
+
+input#searchbar{
+ width: 30%;
+ min-height: 2.5em;
+ border: 3px ridge lightgray;
+ border-radius: 0;
+ padding: 5px;
+ 
+}
+
+nav{
+	float: right;
+	display: block;
+	clear: left;
+	margin-top: .9em;
+	margin-right: 1.2em;
+}
+
+nav p{
+	display: inline;
+	margin-right: 10px;
+	font-size: 0.8em;
+	color: #3E3C3C;
+}
+
+#left-foot{
+	float: left;
+}
+
+#left-foot p{
+	display: inline;
+	margin-right: 10px;
+}
+
+#right-foot{
+	float: right;
+	margin-right: 20px;
+}
+
+#right-foot p{
+	display: inline;
+	margin-right: 10px;
+}
+
+footer{
+	min-height: 30px;
+	background-color: lightgray;
+	border: 1px solid lightgray;
+	padding: 5px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	margin: 0;
+}
+
+footer p{
+	font-size: .8em;
+	color: #565555;
+}
+
+p:hover{
+	text-decoration: underline;
+}
+
+.sign-in{
+	color: white;
+	background-color: #4D91DF;
+	border: 1px groove #4D91DF;
+	padding: 6px 14px 6px 14px;
+	font-weight: bold;
+}
+
+.submit-div{
+	width: 50%;
+	display: block;
+	margin: 1.5em auto;
+}
